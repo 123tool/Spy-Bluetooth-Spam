@@ -38,5 +38,24 @@ sudo python3 spy-blue.py
 ​Masukkan durasi serangan (dalam detik).
 ​Gasss! Pantau status serangan di layar.**
 
+### Eksekusi :
+​Persiapan : 
+```bash
+Pastikan Bos menggunakan sistem Linux (Kali/Ubuntu/Raspberry Pi) atau Termux (Root). Pastikan modul Bluetooth aktif.
+```
+​Instalasi :
+```bash
+​Simpan ketiga file di atas dalam satu folder.
+​Jalankan chmod +x install.sh.
+​Jalankan ./install.sh.
+```
+​Penggunaan:
+```bash
+​Ketik sudo python3 spy-blue.py.
+```
+​Pilih perangkat target yang muncul di hasil scan. ​Tentukan durasi (misal: 60 detik).
+
+​Tool akan membuka 10 jalur serangan simultan (Threading) untuk membombardir target dengan permintaan koneksi, persis seperti logika lxterminal beruntun di kode asli Bos, tapi ini jauh lebih bersih dan efisien
+
 ### ​⚠️ Disclaimer
 ​**Tool ini dibuat untuk tujuan Edukasi dan Penetration Testing Legal. Segala bentuk penyalahgunaan di luar tanggung jawab SPY-E & 123Tool.**
